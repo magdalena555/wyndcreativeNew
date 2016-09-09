@@ -1,0 +1,185 @@
+
+.single-work{
+	margin-top:75px;
+}
+.single-intro{
+	padding:5%;
+	h1{
+		color:#3c4a54;
+		font-family: 'Prata', serif;
+	    font-size: 2rem;
+	    font-weight: 400;
+	    margin:0;
+	}
+	hr{
+		display: block;
+		margin: 1em auto;
+		border: 1px solid #3c4a54;
+		width: 12%;
+		transition: width .5s ease;
+	}
+}
+
+.single-work-description{
+	
+	p{
+		color: #3c4a54;
+		font-family: 'Raleway', sans-serif;
+	   	font-size: 1.2rem;
+	    font-weight: 400;
+	    line-height: 1.8;
+	    text-align: center;
+	    padding:0 20%;
+
+	}
+}
+
+.single-work-devices{
+	width:100%;
+	height:400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all 0.5s ease;
+	background-position: center;
+}
+.single-intro{
+	h1{
+		text-align: center;
+	}
+}
+.single-example{
+	display: flex;
+	width:100%;
+	flex-direction:row;
+	.example-image{
+		width:50%;
+		height:500px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		transition: all 0.5s ease;
+		background-position: 0 3%;
+	}
+	.example-content{
+		width:50%;
+		height:450px;
+		padding:5%;
+		margin:0;
+		h2{
+			color: #3c4a54;
+			font-family: 'Raleway', sans-serif;
+		    font-size: 24px;
+		    font-weight: 400;
+		    line-height: 1.5;
+		    text-align: left;
+
+		}
+		p{
+			color: #3c4a54;
+			font-family: 'Raleway', sans-serif;
+		    font-size: 20px;
+		    font-weight: 400;
+		    line-height: 1.8;
+		    text-align: left;
+
+
+		}
+	}
+}
+.single-example:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+
+	.live-site{
+		width: 100%;
+		padding: 5%;
+		text-align: center;
+		background: #c5a47e;
+		a{
+    	    display: block;
+    	    color:#3c4a54; 
+    	    text-align: center;  	   
+		}
+	}
+	
+
+
+	.back-portfolio{
+		width: 100%;
+	    text-align: center;
+		padding:5%;
+	    a{
+			display: block;
+			color:#3c4a54; 
+			text-align: center;  
+	    }
+	}
+
+
+	// Responsive design
+	@media all and (max-width: 1500px) { 
+
+
+	}
+	@media all and (max-width: 1024px) { 
+		
+	}
+	@media all and (max-width: 940px) { 
+
+
+	}
+
+	@media all and (max-width: 768px) {
+		.single-intro h1 {
+		    font-size: 1.2rem;
+		}
+		.single-work-description p {
+		    font-size: 1rem;
+
+		}
+		.single-example .example-content h2 {
+		     font-size: 1.2rem;
+		}
+		.single-example .example-content p {
+		    font-size: 1rem;
+		}
+		.single-example {
+		    flex-direction: column;
+		}
+		.single-example .example-image {
+		    width: 100%;
+		    height: 450px;
+		}
+		.single-example .example-content {
+		    width: 100%;
+			height:400px;
+
+		}
+		.single-example:nth-child(odd) {
+		    flex-direction: column;
+		}
+
+	}
+
+	@media all and (max-width: 750px) {
+
+
+	}
+	@media all and (max-width: 736px) {
+		
+	}
+	@media all and (max-width: 667px) {
+
+	}
+
+	@media all and (max-width: 480px) {
+
+
+	}
+
+	@media all and (max-width: 320px) {
+	    
+	    
+	}
+
+

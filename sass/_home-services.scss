@@ -1,0 +1,165 @@
+.home-services{
+	padding:10%;
+	h3{
+		letter-spacing: 1.7px;
+		letter-spacing: 0.17rem;
+		line-height: 16px;
+		line-height: 1.6rem;
+		font-weight: normal;
+		margin: 0 0 7px 0;
+		padding: 0;
+		color:#c5a47e;
+		font-weight: 900;
+		font-family: 'Prata', serif;
+		text-align: center;
+		font-size: 2rem;
+	}
+	hr{
+		display: block;
+	    margin: 2em auto;
+	    border: 1px solid #c5a47e;
+	    width: 12%;
+	    -webkit-transition: width 1s ease;
+	    transition: width .5s ease;
+	}
+	
+	.home-services-item{
+		background: #fff;		
+		h2{
+			font-size: 1.8rem;
+			margin: 0 ;
+			text-align: left;
+			color:#c5a47e;
+			font-family: 'Raleway', sans-serif;
+		}
+		.services-home-content{
+			display:none;
+			p{
+				font-size: 1rem;
+				margin: 0 ;
+				text-align: left;
+				color:#c5a47e;
+			}
+	
+		}
+	}
+}
+.home-services .button:hover {
+    background: #3c4a54;
+    color:#fff;
+}
+.home-service-container{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	.service-list-right{
+		width:50%;
+		color:#3c4a54;
+		font-size: 1.5rem;
+		padding:0 10px;
+
+		p{
+			font-size: 1.5rem;
+			text-align: left;
+		}
+	}
+	.service-list-left{
+		color:#3c4a54;
+		padding:0 10px;
+		width:50%;
+
+		p{
+			font-size: 1.5rem;
+			text-align: right;
+		}
+
+	}
+}
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+
+
+}
+@media all and (max-width: 1024px) { 
+	.about {
+	    padding: 5%;
+
+	}
+	
+}
+@media all and (max-width: 940px) { 
+	 .about .parent {
+	    flex-direction: column;
+
+	}
+	.about .about-image {
+	    margin: 0 auto;
+	}
+	.about .about-content {
+	    width: 100%;
+	    padding-top: 5%;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+	.home-services h3 {
+	    font-size: 1.2rem;
+	}
+	.home-service-container .service-list-left p {
+		font-size: 1rem;
+	}
+	.home-service-container .service-list-right p {
+	    font-size: 1rem;
+	}
+	.home-services hr {
+	    margin: 1em auto;
+	}
+	.home-services {
+	    padding: 5%;
+	}
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+	.home-service-container {
+	    flex-direction: column;
+	}
+	.home-service-container .service-list-left {
+	    padding: 0;
+	    width: 100%;
+	    p{
+	    	text-align: center;
+	    	margin:0;
+	    	padding-bottom:5px;
+	    }
+
+	}
+	.home-service-container .service-list-right {
+	    width: 100%;
+	    padding: 0;
+	    p{
+	    	text-align: center;
+	    	margin:0;
+	    	padding-bottom:5px;
+	    }
+	}
+}
+
+@media all and (max-width: 480px) {
+
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

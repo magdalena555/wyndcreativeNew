@@ -1,0 +1,183 @@
+.work-intro{
+	padding:5%;
+	margin-top:90px;
+	h1{
+		font-family: 'Prata', serif;
+		letter-spacing: 4px;
+		line-height: 2;
+		margin: 0 auto;
+		color:#3c4a54;
+		text-align: center;
+		font-size: 1.7rem;
+	}
+	hr{
+	    display: block;
+	    margin: 1em auto;
+	    border: 1px solid #3c4a54;
+	    width: 12%;
+	    transition: width .5s ease;
+	}
+	h2{
+		font-family: Raleway,sans-serif;
+	    font-size: 1.2rem;
+	    font-weight: 400;
+	    color: #3c4a54;
+	    line-height: 2.5;
+	    text-align: center;
+	    margin: 0 auto;
+	    max-width: 700px;
+	}
+}
+
+.work-page-container{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	flex-wrap:wrap;
+	a{
+		width:50%;
+	}
+	.home-work-image{
+			width: 100%;
+			height: 700px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			transition: all .5s ease;
+			position: relative;
+			background-position: 0 14%;
+			.work-title{
+				position:relative;
+				z-index: 999;
+				top: 50%;
+				-webkit-transform: translateY(-50%);
+				-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
+
+				h2{
+					color: #fff;
+				    font-weight: 700;
+				    font-size: 1.5rem;
+				    line-height: 50px;
+				    z-index:999;
+				    position:relative;
+				    text-align:center;
+				    margin:0;
+				   
+				}
+			    p{
+			    	line-height: 1.8;
+		    	    color: #fff;
+		    	    font-family: 'Raleway', sans-serif;
+		    	    font-weight: 700;
+		    	    letter-spacing: 1.5px;
+		    	    font-size: 1.2rem;
+		    	    text-align: center;
+		    	    margin:0;
+		    	    padding: 0 20%;
+
+			    }
+			    hr{
+			    	display: block;
+			        margin: 1em auto;
+			        border: 1px solid #fff;
+			        width: 12%;
+			        -webkit-transition: width 1s ease;
+			        transition: width 1s ease;
+			    }
+			}
+			
+			.overlay {
+			    bottom: 0;
+			    top: 0;
+			    display: block;
+			    width: 100%;
+			    z-index: 2;
+			    background-color: rgba(0,0,0, 0.5);
+			    position:absolute;
+			    -webkit-transition: background-color 1s ease;
+			    transition: background-color 1s ease;
+			    
+			    
+
+			}
+		}
+
+
+}
+ 
+.work-page-container .home-work-image .overlay:hover{
+	background-color: rgba(197,164,126,.8); 
+}
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	.work-page-container .home-work-image {
+	    height: 550px;
+
+	}
+
+}
+@media all and (max-width: 1024px) { 
+
+	
+
+	
+}
+@media all and (max-width: 940px) { 
+	.work-page-container .home-work-image {
+	    height: 400px;
+
+	}
+
+}
+
+@media all and (max-width: 768px) {
+	.work-intro h1 {
+
+	    font-size: 1.4rem;
+	}
+	.work-intro h2 {
+    	font-size: 1rem; 
+	}
+
+
+	.work-page-container .home-work-image .work-title h2 {
+	    font-size: 1.2rem;
+
+	}
+	.work-page-container .home-work-image .work-title p {
+	    font-size: 1rem;
+	}
+	   
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+	.work-page-container a {
+	    width: 100%;
+	}
+	.work-page-container .home-work-image {
+	    height: 450px;
+
+	}
+}
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+	.work-page-container .home-work-image {
+	    height: 400px;
+
+	}
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}

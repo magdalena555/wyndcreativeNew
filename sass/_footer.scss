@@ -1,0 +1,245 @@
+.footer{
+	width:100%;
+    background:#232c32;
+    background-size: cover; 
+ 	position: relative;
+ 	padding:10%;
+ 	h1{
+ 		padding: 0 5%;
+ 		color: #fff;
+ 		text-align: center;
+ 		font-size: 2rem;
+ 		font-weight: 400;
+ 	}
+	hr {
+ 	    display: block;
+ 	    margin: 1em auto;
+ 	    border: 1px solid #62c0c2;
+ 	    width: 12%;
+ 	    transition: width .5s ease;
+ 	}
+ 	.contact-intro{
+ 		padding: 0 5%;
+ 		color: #fff;
+ 		font-weight: 400;
+ 		text-align: left;
+
+ 		p{
+ 			font-size: 1rem;
+ 			max-width: 700px;
+ 			margin: 0 auto;
+ 			font-weight: 100;
+ 			text-align: center;
+ 		}
+ 	}
+}
+
+.contact-wrapper{
+	display:flex;
+	flex-wrap:wrap;
+	width:100%;
+	.contact-form{
+		width:50%;
+		padding:5%;
+	}
+	.contact-info{
+		width:50%;
+		padding:5%;
+	}
+}
+
+.footerContent{
+	width:100%;
+	display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+	.line{
+    	border: solid 1px #62c0c2;
+    	display: block;
+    	width: 35px;
+    	margin:0 auto;
+    }
+	i{
+		display: block;
+	}
+
+	h2{
+		color:#fff;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 300;
+		font-size: .9rem;
+    	line-height: 1.5;
+    	letter-spacing: 2px;
+
+		}
+	p{
+		font-size: .9rem;
+		line-height: 1.5;
+		color:#fff;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+		margin:0;
+		letter-spacing: 1.5px;
+		z-index: 3;
+		position: relative;
+		padding-top:10px;
+		font-weight: 100;
+	}
+	img{
+		margin:0 auto;
+		display: block;
+		width:33%;
+	}
+}
+
+
+.infoparent{
+	display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    width:100%;
+    justify-content: center;
+    h2{
+    	font-family: 'Raleway', sans-serif;;
+	    font-weight: bold;
+	    font-size: 12px;
+	    text-transform: uppercase;
+	    letter-spacing: 4px;
+	    color: #fff;
+	    line-height: 38px;
+	    margin-bottom: 0;
+    }
+
+}
+.info{
+	text-align: center;
+	width:245px;
+	background: transparent;
+	margin:10px;
+	padding:55px 11px;
+	transition: all .5s ease-in-out;
+
+
+}
+.info:hover{
+	transform: translate(0, -15px);
+	-webkit-transform: translate(0, -15px);
+
+}
+
+
+.footer2{
+	background:white;
+	width:100%;
+	color: #3c4a54;
+	text-align: center;
+	height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	p{
+		font-size: .8rem;
+		margin:0;
+		letter-spacing: 1.5px;
+		font-family: 'Raleway', sans-serif;
+	}
+}
+.form{
+	input {
+    	background: transparent;
+    	border: 1px solid #000;
+	    display: inline-block;
+	    height: 27px;
+	    vertical-align: middle;
+	    font-size: 11px;
+	    font-weight: 400;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	    color: #777;
+	    border: 1px solid rgba(0,0,0, .1);
+	    padding-left: 7px;
+	    padding-right: 7px;
+	    -webkit-border-radius: 0;
+	    -moz-border-radius: 0;
+	    border-radius: 0;
+	    -webkit-box-shadow: none;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	    -moz-box-sizing: border-box;
+	    -webkit-box-sizing: border-box;
+	    box-sizing: border-box;
+	    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+	    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    	
+	}
+	textarea {
+		background: transparent;
+		border: 1px solid #000;	
+	}
+}
+
+
+// Responsive design
+@media all and (max-width: 1500px) { 
+	
+
+}
+@media all and (max-width: 1024px) { 
+
+	
+
+	
+}
+@media all and (max-width: 940px) { 
+	
+	.infoparent {
+
+	    flex-direction: column;
+
+	}
+	.info {
+	    width: 100%;
+	    margin:0;
+	}
+	.footer .contact-intro, .footer h1{
+		padding:0;
+	}
+
+}
+
+@media all and (max-width: 768px) {
+	.footer {
+	    padding: 5%;
+	}
+	.info {
+		padding: 10px;
+	}
+	.footer h1 {
+	    font-size: 1.2rem;
+	}
+
+}
+
+@media all and (max-width: 750px) {
+
+
+}
+@media all and (max-width: 736px) {
+
+}
+@media all and (max-width: 667px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+
+}
+
+@media all and (max-width: 320px) {
+    
+    
+}
